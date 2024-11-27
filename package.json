@@ -1,0 +1,23 @@
+{
+  "name": "002-typescript",
+  "version": "1.0.0",
+  "description": "BookRepository",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --project ./tsconfig.json --watch"
+  },
+  "author": "Yokopoomy",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.7.4",
+    "@typescript-eslint/parser": "^6.7.4",
+    "eslint": "^8.50.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^17.1.0",
+    "eslint-plugin-react": "^7.33.2",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "mongoose": "^7.5.4"
+  }
+}
